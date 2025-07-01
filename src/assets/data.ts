@@ -10,6 +10,8 @@ import { IoTrendingUpSharp } from "react-icons/io5";
 import { RiFlashlightFill } from "react-icons/ri";
 import type {IconType}  from "react-icons";
 import { FaBolt, FaRocket } from "react-icons/fa";
+import { FaChevronDown } from "react-icons/fa";
+
 
 interface CardData {
     id:number ;
@@ -212,5 +214,53 @@ export const pricingData : PricingData[] = [
     brandKit:50,
     credits:600,
     popular: false,
+  },
+];
+
+
+
+interface FAQData  {
+    id: number ;
+    title:string;
+    content:string;
+    icon:IconType;
+}
+
+export const faqData : FAQData[] = [
+  {
+    id: 1,
+    title: "What is your return policy?",
+    content: "We offer a 30-day money-back guarantee with no questions asked.",
+    icon: FaChevronDown,
+  },
+  {
+    id: 2,
+    title: "How long does shipping take?",
+    content: "Shipping typically takes 3–5 business days depending on your location.",
+    icon: FaChevronDown,
+  },
+  {
+    id: 3,
+    title: "Can I upgrade my plan later?",
+    content: "Yes, you can upgrade or downgrade your plan anytime from your dashboard.",
+    icon: FaChevronDown,
+  },
+  {
+    id: 4,
+    title: "Is there a free trial available?",
+    content: "Absolutely! You can try any plan free for 14 days without entering payment details.",
+    icon: FaChevronDown,
+  },
+  {
+    id: 5,
+    title: "Do you offer customer support?",
+    content: "Yes, our support team is available 24/7 via chat and email.",
+    icon: FaChevronDown,
+  },
+  {
+    id: 6,
+    title: "Is my data secure?",
+    content: "We use enterprise-grade encryption and follow industry best practices to keep your data safe.",
+    icon: FaChevronDown,
   },
 ];

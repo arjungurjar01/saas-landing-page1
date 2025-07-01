@@ -5,6 +5,7 @@ import FeatureSection from "../sections/FeatureSection";
 import StatsSection from "../sections/StatsSection";
 import TestimonialsSection from "../sections/TestimonialsSection";
 import PricingSection from "../sections/PricingSection";
+import FAQSection from "../sections/FAQSection";
 
 function HomePage() {
   return (
@@ -16,6 +17,7 @@ function HomePage() {
       <StatsSection />
       <TestimonialsSection />
       <PricingSection/>
+      <FAQSection/>
     </div>
   );
 }
