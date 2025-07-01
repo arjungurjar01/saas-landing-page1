@@ -1,4 +1,3 @@
-import React from 'react'
 
 type StarsType = {
     stars? : number ;
