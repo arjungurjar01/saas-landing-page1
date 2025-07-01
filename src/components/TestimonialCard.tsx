@@ -1,3 +1,5 @@
+import PrintStar from "./PrintStar";
+
 type TestimonialCardTypes = {
   dp: string;
   name: string;
@@ -28,12 +30,9 @@ function TestimonialCard({
 
         {/* star div */}
         <div>
-          {[...Array(star)].map((_, i) => (
-            <span key={i} className="text-yellow-400">
-              ★
-            </span>
-          ))}
+            <PrintStar stars={star}></PrintStar>
         </div>
+        
       </div>
 
       {/* review  div*/}

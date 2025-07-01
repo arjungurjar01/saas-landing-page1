@@ -4,6 +4,7 @@ import ProcessSection from "../sections/ProcessSection";
 import FeatureSection from "../sections/FeatureSection";
 import StatsSection from "../sections/StatsSection";
 import TestimonialsSection from "../sections/TestimonialsSection";
+import PricingSection from "../sections/PricingSection";
 
 function HomePage() {
   return (
@@ -14,6 +15,7 @@ function HomePage() {
       <FeatureSection />
       <StatsSection />
       <TestimonialsSection />
+      <PricingSection/>
     </div>
   );
 }

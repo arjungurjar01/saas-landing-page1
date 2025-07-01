@@ -9,6 +9,7 @@ import { FiDollarSign } from "react-icons/fi";
 import { IoTrendingUpSharp } from "react-icons/io5";
 import { RiFlashlightFill } from "react-icons/ri";
 import type {IconType}  from "react-icons";
+import { FaBolt, FaRocket } from "react-icons/fa";
 
 interface CardData {
     id:number ;
@@ -93,6 +94,7 @@ export const statsData : StatData[] = [
     }
 ]
 
+
 export const testimonialsData = [
   {
     id: 1,
@@ -141,5 +143,74 @@ export const testimonialsData = [
     job: "Marketing Head",
     stars: 5,
     review: "It’s rare to find such consistent and reliable quality. Highly satisfied!",
+  },
+];
+
+
+interface PricingData {
+  id: number;
+  badge: IconType; 
+  title: string;
+  description: string;
+  adsNumber:number;
+  perAdPrice:number;
+  includeUsers:number;
+  additionalUsers:string;
+  dummyPrice:number;
+  finalPrice:number;
+  save:number;
+  brandKit:number;
+  credits:number;
+  popular:boolean;
+}
+
+export const pricingData : PricingData[] = [
+  {
+    id: 1,
+    badge: RiFlashlightFill,
+    title: "Starter",
+    description: "Best for creators, small businesses, & early-stage startups.",
+    adsNumber: 50,
+    perAdPrice: 0.98,
+    includeUsers: 2,
+    additionalUsers: "$23/mo",
+    dummyPrice: 56,
+    finalPrice: 40,
+    save: 38,
+    brandKit:1,
+    credits:50,
+    popular: false,
+  },
+  {
+    id: 2,
+    badge: FaBolt ,
+    title: "Pro",
+    description: "Ideal for growing teams and scaling campaigns.",
+    adsNumber: 150,
+    perAdPrice: 0.75,
+    includeUsers: 5,
+    additionalUsers: "$18/mo",
+    dummyPrice: 89,
+    finalPrice: 65,
+    save: 56,
+    brandKit:3,
+    credits:300,
+    popular: true, //Marked as popular
+  },
+  {
+    id: 3,
+    badge: FaRocket,
+    title: "Enterprise",
+    description: "Designed for large organizations with high-volume needs.",
+    adsNumber: 500,
+    perAdPrice: 0.60,
+    includeUsers: 10,
+    additionalUsers: "$15/mo",
+    dummyPrice: 149,
+    finalPrice: 110,
+    save: 80,
+    brandKit:50,
+    credits:600,
+    popular: false,
   },
 ];
