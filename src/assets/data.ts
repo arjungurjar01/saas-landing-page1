@@ -92,3 +92,54 @@ export const statsData : StatData[] = [
         description:"Turn viewers into buyers"
     }
 ]
+
+export const testimonialsData = [
+  {
+    id: 1,
+    image: "https://ui-avatars.com/api/?name=Sarah+Lee&background=random",
+    name: "Sarah Lee",
+    job: "Founder",
+    stars: 5,
+    review: "Absolutely incredible experience. The results exceeded my expectations and the team was super helpful!",
+  },
+  {
+    id: 2,
+    image: "https://ui-avatars.com/api/?name=James+Wong&background=random",
+    name: "James Wong",
+    job: "Product Manager",
+    stars: 5,
+    review: "Seamless and efficient from start to finish. Highly recommended if you care about quality.",
+  },
+  {
+    id: 3,
+    image: "https://ui-avatars.com/api/?name=Anjali+Sharma&background=random",
+    name: "Anjali Sharma",
+    job: "CTO",
+    stars: 5,
+    review: "Top-notch service and support! The platform helped us grow faster than we imagined.",
+  },
+  {
+    id: 4,
+    image: "https://ui-avatars.com/api/?name=Daniel+Green&background=random",
+    name: "Daniel Green",
+    job: "Developer Advocate",
+    stars: 5,
+    review: "The best investment I've made for my startup. Clean UI and flawless functionality.",
+  },
+  {
+    id: 5,
+    image: "https://ui-avatars.com/api/?name=Maria+Gonzalez&background=random",
+    name: "Maria Gonzalez",
+    job: "UX Designer",
+    stars: 5,
+    review: "Loved every bit of it! From UX to support, everything felt professional and personal.",
+  },
+  {
+    id: 6,
+    image: "https://ui-avatars.com/api/?name=Akash+Patel&background=random",
+    name: "Akash Patel",
+    job: "Marketing Head",
+    stars: 5,
+    review: "It’s rare to find such consistent and reliable quality. Highly satisfied!",
+  },
+];
